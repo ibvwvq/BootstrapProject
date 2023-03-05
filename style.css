@@ -1,0 +1,27 @@
+.col-xl-12{
+    background-color: seashell;
+}
+
+
+.sidebar {
+    background-color: #E3D9FF;
+    height: 550px;
+    
+}
+.navbar-brand{
+    padding: 10px;
+}
+
+.main{
+    background-color: aliceblue;
+    height: 550px;
+    display: flex;
+}
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
