@@ -3,9 +3,17 @@ $(document).ready(function() {
 });
 
 
-$(document).ready(function () {
-    $('#example').DataTable();
-});
+
+$(document).ready(function() {
+    var table = $('#example').DataTable( {
+        rowReorder: {
+            selector: 'td:nth-child(2)'
+        },
+        responsive: true
+    } );
+} );
+
+
 
 $(document).ready(function() {
     $(".owl-carousel").owlCarousel();
