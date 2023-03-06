@@ -5,7 +5,8 @@
 
 .sidebar {
     background-color: #E3D9FF;
-    height: 550px;
+    width: 100%;
+    height: 100%;
     
 }
 .navbar-brand{
@@ -14,8 +15,8 @@
 
 .main{
     background-color: aliceblue;
-    height: 550px;
-    display: flex;
+    width: 100%;
+    height: 100%;
 }
 
 .footer{
@@ -23,5 +24,16 @@
     align-items: center;
     display: flex;
 }
+
+.form-select{
+    display: flex;
+    width: 250px; 
+    align-items: center; 
+    justify-content: center;
+    margin: 10px;
+}
+
+
+
 
 
